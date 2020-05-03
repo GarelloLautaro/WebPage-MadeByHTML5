@@ -50,3 +50,47 @@ color: #37c0fb;
     height: 20px;
     background-color: #37c0fb;
 }
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+    height: 450px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    min-width: 100%;
+    color: white;
+    background: black;
+}
+.background h2{
+    font-family: 20px;
+    font-weight: 300;
+}
+.background h2 span{
+    font-weight: 500;
+}
+.background h2 a{
+    color: #ccc;
+}
+.background h2 a:hover{
+    color: #37c0fb;
+    cursor: pointer;
+}
+.background button{
+    color: white;
+    background-color: #37c0fb;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px; 
+    font-weight: 500;
+    font-size: 19px;
+}
