@@ -9,7 +9,7 @@ font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     height: 120px;
 }
-.header p{
+.header h1{
     display: flex;
     font-size: 30px;
     color: #474747;
@@ -17,12 +17,12 @@ font-family: "Source Sans Pro", sans-serif;
     font-style: bold;
     font-weight: 300;
 }
-.header h1 {
+.header h2 {
     font-size: 40px;
     font-weight: 100;
 }
 .header:hover, .header p:hover{
-color: #37c0fb;
+    color: #37c0fb;
 }
 
 .menu{
@@ -31,7 +31,7 @@ color: #37c0fb;
     justify-content: center;
     align-items: center;
     align-self: center;
-    height: 100px;
+    min-height: 100px;
     background-color: #2e2e2e;
     color: #c0c0c0;
     font-size: 19px;
@@ -72,17 +72,17 @@ color: #37c0fb;
     background: black;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.background h2{
+.background h3{
     font-family: 20px;
     font-weight: 300;
 }
-.background h2 span{
+.background h3 span{
     font-weight: 500;
 }
-.background h2 a{
+.background h3 a{
     color: #ccc;
 }
-.background h2 a:hover{
+.background h3 a:hover{
     color: #37c0fb;
     cursor: pointer;
 }
@@ -94,4 +94,27 @@ color: #37c0fb;
     border-radius: 5px; 
     font-weight: 500;
     font-size: 19px;
+}
+
+.container-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  
+}
+.container-icons .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin-top: 10px;  
+}
+.container-icons .container .icon{
+    background-image: url("../images/paper_plane.jpg");
+    justify-content: space-evenly;
+    display: flex;
+    min-width: 100px;
+    min-height: 100px;
 }
