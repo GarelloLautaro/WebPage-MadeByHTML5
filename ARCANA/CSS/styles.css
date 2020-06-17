@@ -106,14 +106,15 @@ font-family: "Source Sans Pro", sans-serif;
     font-size: 19px;
 }
 
-.container-icons{
+.containerIcons{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;  
+    width: 100%;
+    height: 400px;
 }
 
-.container-icons .container{
+.containerIcons .container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -135,4 +136,151 @@ h4 {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+
+.giganticHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    background-color: rgb(247, 247, 247);
+}
+
+.giganHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.smallerHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.theFourThings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.firstAndTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.firstThing {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+}
+
+.firstText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.firstTittle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 25px;
+}
+
+.twoThing {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+}
+
+.secondText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secondTittle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+.thirdAndFourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.thirdThing {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+}
+
+.thirdText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thirdTittle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 25px;
+}
+
+.fourthThing {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+}
+
+.fourthText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fourthTittle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 25px;
+}
+
+.insertCoin {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: rgb(0, 136, 141);
+}
+
+.areYouReady {
+    font-size: 40px;
+    color: white;
+}
+
+.btnInsertCoin {
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px; 
+    font-weight: 500;
+    font-size: 19px;
 }
